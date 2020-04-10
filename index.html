@@ -5,7 +5,6 @@
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="data/reset.css">
 <style type="text/css">
-	/*字體粗細載進來需要加一段語法例如https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500&display=swap" rel="stylesheet*/
 	*{margin: 0;
 		padding: 0;
 		list-style: none;
@@ -21,9 +20,7 @@
 	.item img{width: 100%;
 		vertical-align: middle;
 	}
-	/*vertical-align圖片下方空間處理*/
 	.item .txt{position: absolute;
-		/*文字蓋在圖片上方，所以item要設定相對定位position: relative。*/
 		top: 0px;
 		right: 0;
 		bottom: 0;
@@ -41,14 +38,11 @@
     .item:hover .txt{
     	opacity: 1;
     }
-    	/*動畫做transition寫秒數*/
-		/*文字消失處理。父層被摸到，子層做反應 item:hover .txt{opacity:1*/
 	.item h2{
 		font-size: 28px;
 		color: #ff0;
 		font-weight: bold;
 	}
-	/*以下h2設定跑h2線條動畫，一開始width是0之後變100*/
 	.item h2:after{
 		content: '';
 		display: block;
