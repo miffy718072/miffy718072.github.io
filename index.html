@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>防疫模範生口罩</title>
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="data/reset.css">
 <style type="text/css">
+	/*字體粗細載進來需要加一段語法例如https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500&display=swap" rel="stylesheet*/
 	*{margin: 0;
 		padding: 0;
 		list-style: none;
@@ -19,7 +21,9 @@
 	.item img{width: 100%;
 		vertical-align: middle;
 	}
+	/*vertical-align圖片下方空間處理*/
 	.item .txt{position: absolute;
+		/*文字蓋在圖片上方，所以item要設定相對定位position: relative。*/
 		top: 0px;
 		right: 0;
 		bottom: 0;
@@ -37,11 +41,14 @@
     .item:hover .txt{
     	opacity: 1;
     }
+    	/*動畫做transition寫秒數*/
+		/*文字消失處理。父層被摸到，子層做反應 item:hover .txt{opacity:1*/
 	.item h2{
 		font-size: 28px;
 		color: #ff0;
 		font-weight: bold;
 	}
+	/*以下h2設定跑h2線條動畫，一開始width是0之後變100*/
 	.item h2:after{
 		content: '';
 		display: block;
@@ -160,6 +167,118 @@
 	<div class="txt">
 		<h2>已出貨</h2>
 		<p>訂單時間4/9<br>出貨日期4/9</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04110411.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/11<br>出貨日期4/11</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04120412g.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/12<br>出貨日期4/12</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04120413.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/12<br>出貨日期4/13</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04120413gm.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/12<br>出貨日期4/13</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04130414c.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/13<br>出貨日期4/14</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04080409m.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/13<br>出貨日期4/13</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04030404.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/14<br>出貨日期4/15</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04140415m02.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/14<br>出貨日期4/15</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04140415g3.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/14<br>出貨日期4/15</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04140416.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/14<br>出貨日期4/16</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04070409g.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/16<br>出貨日期4/16</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04110411.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/16<br>出貨日期4/17</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04120412g.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/18<br>出貨日期4/19</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04170419m2.jpg" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/17<br>出貨日期4/19</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04170419.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/17<br>出貨日期4/19</p>
+	</div>
+	</div>
+	<div class="item">
+	<img src="image/04030405.JPG" width="500" height="300px">
+	<div class="txt">
+		<h2>已出貨</h2>
+		<p>訂單時間4/20<br>出貨日期4/20</p>
 	</div>
 	</div>
 </div>
